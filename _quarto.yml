@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "trial-pages"
+  navbar:
+    left:
+      - href: index.qmd
+        text: home
+      - contents/first.qmd
+
+format: 
+  html: 
+    theme: cosmo
+    toc: true
+
+    
